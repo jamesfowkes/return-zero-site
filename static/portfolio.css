@@ -3,13 +3,26 @@ body
 	background-color: #A0A0E0;
 }
 
+li {
+	margin: 0 0 3px 0;
+}
+
+p {
+	text-align: justify;
+	font-size: 115%;
+}
+
+ul {
+	font-size: 115%;
+}
+
 p.xsaid {
 	font-weight: bold;
 }
 
 p.quote {
 	font-style: italic;
-	font-size: 120%;
+	font-size: 125%;
 }
 
 h2.portfolio-work-header {
