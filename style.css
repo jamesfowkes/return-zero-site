@@ -1,0 +1,40 @@
+body
+{
+	padding-left: 10%;
+	padding-right: 10%;
+	font-family: 'Palanquin', sans-serif;
+}
+
+img#header
+{
+	padding-top: 20px;
+}
+
+p.xsaid {
+	margin:2em;
+	font-weight: bold;
+}
+
+p.quote {
+	margin:2em;
+	font-style: italic;
+	font-size: 120%;
+}
+
+div.quote {
+	padding: 0.5em;
+	border-radius: 0.5em;
+	background-color: #dddddd;
+}
+
+h2.portfolio-work-header {
+	background-color: #dddddd;
+	padding: 0.5em;
+	border-radius: 0.5em;
+}
+
+div.work_image {
+    float: left;
+    margin: 0 0 10px 10px;
+    clear: left;
+}
