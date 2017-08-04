@@ -1,0 +1,50 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="static/style.css" type="text/css"/>
+    <link href='https://fonts.googleapis.com/css?family=Palanquin:300' rel='stylesheet' type='text/css'>
+    <link rel="icon" type="image/x-icon" href="favicon.png" />
+
+    <title>Return Zero - Support</title>
+</head>
+
+<body>
+
+    <img id="header" src="header.svg" width="100%"/>
+
+    <h1>Support</h1>
+
+    <h2 class="support-header">Arduino Nano Breakout</h2>
+
+    <div class="col-md-12">
+
+        <p>
+            The <a href="https://www.tindie.com/products/jamesfowkes/arduino-nano-breakout/">Arduino Nano Breakout Board</a> can be configured for many different input and output options. Here is a quick guide for selecting the headers for each option.
+        <p>
+
+        <h3>D3-D10 as Digital Input</h3>
+        <p>Connect the "Direct Output" jumper only. This will connect the center pin of the terminal block header to the arduino pin.</p>
+        <img src="static/input-jumpers.svg" width="80%"/>
+
+        <h3>D3-D10 as Digital Output (No Relay)</h3>
+        <p>Connect the "Direct Output" and "Set pin as output" jumpers. This will connect the center pin of the terminal block header to the arduino pin and bypass the input protection.</p>
+        <img src="static/direct-output-jumpers.svg" width="80%"/>
+
+        <h3>D3-D10 as Relay Output</h3>
+        <p>Connect the "Relay Output" and "Set pin as output" jumpers. When the corresponding output is HIGH, the PWR and SIG contacts are connected.</p>
+        <img src="static/relay-output-jumpers.svg" width="80%"/>
+
+        <h3>Power Selection</h3>
+        <p>For any of the above configurations, a power supply to the PWR pin may be selected. Pick one of 12V, 5V or the external voltage.</p>
+        <img src="static/power-selection-jumpers.svg" width="80%"/>
+
+        <h3>Ground NC Connection</h3>
+        <p>For use with a relay configuration, the NC relay contact may be connected to GND. This will connect SIG to GND when the relay is off.</p>
+        <img src="static/nc-ground-jumper.svg" width="80%"/>
+
+    </div>
+
+</body>
+
+</html>

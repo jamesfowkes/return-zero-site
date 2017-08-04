@@ -5,6 +5,15 @@ body
 	font-family: 'Palanquin', sans-serif;
 }
 
+p {
+	font-size: 130%;
+}
+
+ul {
+	font-size: 130%;
+}
+
+
 img#header
 {
 	padding-top: 20px;
@@ -27,7 +36,7 @@ div.quote {
 	background-color: #dddddd;
 }
 
-h2.portfolio-work-header {
+h2.grey-header {
 	background-color: #dddddd;
 	padding: 0.5em;
 	border-radius: 0.5em;
