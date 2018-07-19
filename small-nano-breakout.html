@@ -1,0 +1,63 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="static/style.css" type="text/css"/>
+    <link href='https://fonts.googleapis.com/css?family=Palanquin:300' rel='stylesheet' type='text/css'>
+    <link rel="icon" type="image/x-icon" href="favicon.png" />
+
+    <title>Return Zero - Support</title>
+</head>
+
+<body>
+
+    <img id="header" src="header.svg" width="100%"/>
+
+    <h1>Small Nano Breakout</h1>
+
+    <div class="col-md-12">
+
+        <h2 class="support-header">Configuration</h2>
+
+        <p>
+            The <a href="https://www.tindie.com/products/jamesfowkes/small-arduino-nano-breakout/">Small Arduino Nano Breakout Board</a> can be configured for many different input and output options. Here is a quick guide for selecting the headers for each option.
+        <p>
+
+        <h3>D3-D6 as Digital Input</h3>
+        <p>Connect the "Direct Output" jumper only. This will connect the center pin of the terminal block header to the arduino pin.</p>
+        <img src="static/support/small-nano-breakout/input-jumpers.svg" width="80%"/>
+
+        <h3>D7-D10 as Digital Input</h3>
+        <p>No jumpers required</p>
+
+        <h3>D3-D6 as Digital Output (No Relay)</h3>
+        <p>Connect the "Direct Output" and "Set pin as output" jumpers. This will connect the center pin of the terminal block header to the arduino pin and bypass the input protection.</p>
+        <img src="static/support/small-nano-breakout/direct-output-jumpers-no-relay.svg" width="80%"/>
+
+        <h3>D7-D10 as Digital Output </h3>
+        <p>Connect the "Set pin as output" jumper. This will bypass the input protection.</p>
+        <img src="static/support/small-nano-breakout/direct-output-jumpers.svg" width="80%"/>
+
+        <h3>D3-D6 as Relay Output</h3>
+        <p>Connect the "Relay Output" and "Set pin as output" jumpers. When the corresponding output is HIGH, the PWR and SIG contacts are connected.</p>
+        <img src="static/support/small-nano-breakout/relay-output-jumpers.svg" width="80%"/>
+
+        <h3>Power Selection</h3>
+        <p>For any of the above configurations, a power supply to the PWR pin may be selected. Pick one of 12V or 5V.</p>
+        <img src="static/support/small-nano-breakout/power-selection-jumpers.svg" width="80%"/>
+
+        <h3>Ground NC Connection</h3>
+        <p>For use with a relay configuration, the NC relay contact may be connected to GND. This will connect SIG to GND when the relay is off.</p>
+        <img src="static/support/small-nano-breakout/nc-ground-jumper.svg" width="80%"/>
+
+        <h2 class="support-header">Files</h2>
+        <ul>
+            <li><a href="static/support/small-nano-breakout/small-nano-breakout.r1.sch.pdf">Revision 1 Schematic</a></li>
+            <li><a href="static/support/small-nano-breakout/small-nano-breakout.r1.kicad.zip">Revision 1 KiCAD Files</a></li>
+            <li><a href="static/support/small-nano-breakout/small-nano-breakout.r1.gerber.zip">Revision 1 Gerbers</a></li>
+        </ul>
+    </div>
+
+</body>
+
+</html>
